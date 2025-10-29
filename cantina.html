@@ -10,7 +10,7 @@
     *{
       box-sizing:border-box;
       margin:0;
-      padding:0
+      padding:0;
     }
 
     body{
@@ -103,16 +103,16 @@
       font-family:Cambria,Georgia,serif;
       display:flex;
       align-items:center;
-      gap:12px
+      gap:12px;
     }
 
     .logo img{
-      max-height:80px
+      max-height:80px;
     }
 
     .search-bar{
       flex:1;
-      margin:0 20px
+      margin:0 20px;
     }
 
     .search-bar input{
@@ -120,7 +120,7 @@
       padding:8px 12px;
       font-size:16px;
       border:1px solid #ccc;
-      border-radius:4px
+      border-radius:4px;
     }
 
     .icons{
@@ -128,12 +128,12 @@
       gap:15px;
       align-items:center;
       color:#555;
-      font-size:14px
+      font-size:14px;
     }
 
     .icon{
       cursor:pointer;
-      position:relative
+      position:relative;
     }
 
     #contador-carrinho{
@@ -145,7 +145,7 @@
       font-size:12px;
       position:absolute;
       top:-6px;
-      right:-10px
+      right:-10px;
     }
 
     /* ---------- Navegação / Abas (integradas) ---------- */
@@ -156,7 +156,7 @@
       gap:12px;
       flex-wrap:wrap;
       border-radius:8px;
-      margin:12px 18px
+      margin:12px 18px;
     }
 
     nav.main-nav button{
@@ -166,11 +166,11 @@
       padding:8px 14px;
       border-radius:8px;
       cursor:pointer;
-      font-weight:700
+      font-weight:700;
     }
 
     nav.main-nav button[aria-current="true"]{
-        background:#994d26
+        background:#994d26;
       }
 
     /* ---------- Ofertas / Secoes ---------- */
@@ -182,13 +182,13 @@
       text-align:center;
       font-size:20px;
       color:#994d26;
-      font-weight:700
+      font-weight:700;
     }
 
     .container{
       max-width:1100px;
       margin:18px auto;
-      padding:0 16px
+      padding:0 16px;
     }
 
     /* ---------- Promoções (cards) ---------- */
@@ -253,13 +253,13 @@
       margin-bottom:18px;
       opacity:0;
       transform:translateY(8px);
-      transition:all .35s
+      transition:all .35s;
     }
 
     .tab-content.active{
       display:block;
       opacity:1;
-      transform:translateY(0)
+      transform:translateY(0);
     }
 
     /* ---------- Mini carrossel por aba (novo) ---------- */
@@ -268,15 +268,15 @@
       max-width:680px;
       margin:0 auto 12px;
       border-radius:8px;
-      overflow:hidden
+      overflow:hidden;
     }
     .mini-carousel .slide{
-      display:none
+      display:none;
     }
 
     .mini-carousel .slide.active{
       display:block;
-      animation:fadeIn .5s
+      animation:fadeIn .5s;
     }
 
     @keyframes fadeIn{
@@ -286,7 +286,7 @@
       width:100%;
       height:320px;
       object-fit:cover;
-      display:block
+      display:block;
     }
     .mini-carousel .nav{
       position:absolute;
